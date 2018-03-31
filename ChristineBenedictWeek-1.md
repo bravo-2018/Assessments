@@ -5,7 +5,7 @@ These are potential interview questions. Try your best to answer each question o
 #### 1. One great resource for learning Javascript is Eloquent Javascript - read this chapter on functions (http://eloquentjavascript.net/03_functions.html) and list a few thoughts, questions, or things you learned here:
 
   //Your List
-
+  The idea of recursion is confusing as well as the arrow things (=>) in the concept of functions. There's a lot more details of functions that I still need to understand. 
 
 #### 2. What is a linter for? Do you think they are useful? Explain why/why not.
 
@@ -43,18 +43,21 @@ This would return undefined since it is used within a function and cannot be acc
 Was this extra practice helpful? Take note of any concepts you learned or felt you understood better because of this resource.
 
   //Your Answer
+  The first 5 exercises were good at ensuring I wrote the code bits to the exact specifications they denote in their instructions. a = b and b = a have slightly different meanings in the mind of the computer so it was good to remember that fact. The exercises themselves were far behind the point we are currently working in class so they were rather simple. It will be good practice once I get to a similar point in class.
 
 #### 5. Complete the steps for pushing changes to Github, assuming that the directory you are working in is already a git repo:
 
 - git add .
-- git ________________
-- git _____________ -u origin master
+- git commit -m"New repo changes"
+- git push -u origin master
 
 #### 6. List some differences between return and console.log in Javascript. When would you use one vs the other?
+  Return allows you to use the piece of information from a function in other parts of your code. console.log just prints out the item value in the console. I would use return in order to use the outcome of a function inside another function or input it into an array. I would use console.log to check the value of a piece of my code at different points to ensure it is doing the thing I am expecting it to do in order to more easily catch problems I might be having at different points in my code.
 
 #### 7. Think back to the intro to Javascript presentation. We talked about Javascript being a "Dynamically Typed" language. What did this mean about the way we write Javascript?
 
 // Your Answer
+  This means that you don't have to tell javascript what type of data (num/string/array/ etc) it is expecting to be put into a variable or space beforehand. It will automatically detect it and use it if it can. It means that we don't have to define each piece of data before we use it. It can be nice for allowing our program to continue working even if it gets information we don't intend. The downside is that it can make debugging difficult because it is hard to tell where the error is actually occurring since the program still mostly will run.
 
 
 // Googled Answer
