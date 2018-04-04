@@ -61,10 +61,24 @@ AlphabetSoup("ahhloop");
 
 
 // 5. Given the arrays below, use a for loop to print one value from each array concatenated together. How would your code need to change to accomodate arrays of different lengths?
-
 var nums = [1, 5, 88, 2, 5, 42, 57, 101]
-
-var nouns = ["ducks", "telephone booth", "the enterprise", "robots", "amazon", "eraser", "zafod", "a"]
-
+var nouns = ["duck", "telephone booth", "the enterprise", "robots", "amazon", "eraser", "zafod", "a"]
 // output of the first function should be: "1 ducks"
+var numStrings = []
+for( let i=0 ; i<nums.length ; i++ ){
+	numStrings.push(nums[i].toString());
+}
+var numsAndNouns = []
+for( let i=0 ; i<nums.length ; i++ ){
+	numsAndNouns.push(numStrings[i] + " " + nouns[i])
+}
+console.log( numsAndNouns )
 
+
+
+
+
+
+
+
+//
