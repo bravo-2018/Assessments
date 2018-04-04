@@ -1,11 +1,13 @@
 // 1. Write an anonymous function that takes one argument of type number and decides if that number is evenly divisble by three or not. If it is, print the number and "is divisible by three". If it is not, print that the number "is not divisble by three".
-function (num) {
-	if (num%3 === 0) {
-		console.log( num + " is divisible by 3" )
-	} else {
-		console.log( num + " is not divisible by 3" )
-	}
+var divisibleBy3 = function (num) {
+			if (num%3 === 0) {
+				console.log( num + " is divisible by 3" );
+			} else {
+				console.log( num + " is NOT divisible by 3" );
+			}
 }
+divisibleBy3 (4038);
+divisibleBy3 (4039);
 // 2. Write about yourself using an object. Include at least three properties of you and store your object in a variable with your name.
 
 // 3. Given the object below, fill in how to find specific information:
