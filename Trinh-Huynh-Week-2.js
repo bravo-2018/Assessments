@@ -9,6 +9,13 @@ var divisibleBy3 = function (num) {
 divisibleBy3 (4038);
 divisibleBy3 (4039);
 // 2. Write about yourself using an object. Include at least three properties of you and store your object in a variable with your name.
+var trinh = {
+	gender: "female",
+	age: 25,
+	alive: true,
+	hobbies: ["hiking", "reading", "solving puzzles"],
+	association: LearnAcademy
+}
 
 // 3. Given the object below, fill in how to find specific information:
 
@@ -19,33 +26,39 @@ var bicycle = {
 		count: 2,
 		specs: ["road tires", "AX-7563", "80-115 PSI"],
 		brand: "Trek"
+	},
+	getType: function() {
+		return this.type
+	},
+	getGear: function() {
+		return this.gear
+	},
+	getWheels: function() {
+		return this.wheels
 	}
 }
 
 // Log the type of bicycle:
-console.log()
+console.log(bicycle.getType());
 
 // Log just the bell from the list of gear
-console.log()
+console.log(bicycle.gear[2])
 
 // Log the correct PSI for the tires
-console.log()
+console.log(bicycle.wheels.specs[2])
 
 // 4. Have the function AlphabetSoup(str) take the "str" parameter being passed and return a string with the letters in alphabetical order (ie. hello becomes ehllo). Assume no numbers or punctuation symbols will not be included in the parameter. 
-
 // Input:"hooplah"
 // Output:"ahhloop"
-
 function AlphabetSoup(str) {
-
-    // your code goes here  
-	
+	let charsArray = str.split("");
+	str = charsArray.sort();
 	return str; 
 }
-
 // keep this function call here 
+AlphabetSoup("hooplah"); 
+AlphabetSoup("ahhloop");   
 
-AlphabetSoup(readline());   
 
 // 5. Given the arrays below, use a for loop to print one value from each array concatenated together. How would your code need to change to accomodate arrays of different lengths?
 
@@ -54,3 +67,4 @@ var nums = [1, 5, 88, 2, 5, 42, 57, 101]
 var nouns = ["ducks", "telephone booth", "the enterprise", "robots", "amazon", "eraser", "zafod", "a"]
 
 // output of the first function should be: "1 ducks"
+
