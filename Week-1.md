@@ -11,27 +11,28 @@ These are potential interview questions. Try your best to answer each question o
 
 // your answer
 
-#### 3. Explain local vs global scope in programming. Feel free to create a code example to support your answer. 
+#### 3. Explain local vs global scope in programming. Feel free to create a code example to support your answer.
 
   //Your Answer
-  
-  
+  Global scope is when something is available to be referenced to in the entire code
+  Local scope is when something is only available in a specific function
+
   //Googled Answer
+  A global variable exists only once in a script, and is visible in every function
+  A local variable, however, has a limited scope: it exists only within the block that it is declared in
+#### 4. Another great resource for more practice writing code is Free Code Camp. Their Javascript section starts here (https://www.freecodecamp.org/challenges/comment-your-javascript-code) - do at least 5 exercises.
 
-
-#### 4. Another great resource for more practice writing code is Free Code Camp. Their Javascript section starts here (https://www.freecodecamp.org/challenges/comment-your-javascript-code) - do at least 5 exercises. 
-
-Was this extra practice helpful? Take note of any concepts you learned or felt you understood better because of this resource. 
+Was this extra practice helpful? Take note of any concepts you learned or felt you understood better because of this resource.
 
   //Your Answer
 
 #### 5. Complete the steps for pushing changes to Github, assuming that the directory you are working in is already a git repo:
 
 - git add .
-- git ________________
-- git _____________ -u origin master
+- git commit -m "msg"
+- git push -u origin master
 
-#### 6. List some differences between return and console.log in Javascript. When would you use one vs the other? 
+#### 6. List some differences between return and console.log in Javascript. When would you use one vs the other?
 
 #### 7. Think back to the intro to Javascript presentation. We talked about Javascript being a "Dynamically Typed" language. What did this mean about the way we write Javascript?
 
