@@ -60,7 +60,7 @@ AlphabetSoup("hooplah");
 AlphabetSoup("ahhloop");   
 
 
-// 5. Given the arrays below, use a for loop to print one value from each array concatenated together. How would your code need to change to accomodate arrays of different lengths?
+// 5. Given the arrays below, use a for loop to print one value from each array concatenated together. 
 var nums = [1, 5, 88, 2, 5, 42, 57, 101]
 var nouns = ["duck", "telephone booth", "the enterprise", "robots", "amazon", "eraser", "zafod", "a"]
 // output of the first function should be: "1 ducks"
@@ -74,11 +74,11 @@ for( let i=0 ; i<nums.length ; i++ ){
 }
 console.log( numsAndNouns )
 
+// Using map to complete Q.5
+var numsAndNouns = nums.map( (num, i) 
 
-
-
-
-
-
+// How would your code need to change to accomodate arrays of different lengths?
+// Attempted Answer:  We would need to compare the lengths of the two arrays.  For the shorter array, we can
+// add in empty strings to fill it up to the same length as the other one, and then concatenate them.
 
 //
