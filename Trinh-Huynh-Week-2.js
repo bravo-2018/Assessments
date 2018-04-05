@@ -83,6 +83,7 @@ var numsAndNouns = numStrings.map( function( num, i ) {
 	return (num + " " + nouns[i])
 })
 
+
 // How would your code need to change to accomodate arrays of different lengths?
 // Attempted Answer:  We would need to compare the lengths of the two arrays.  For the shorter array, we can
 // add in empty strings to fill it up to the same length as the other one, and then concatenate them.
