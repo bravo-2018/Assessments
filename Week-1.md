@@ -59,3 +59,5 @@ we don't have to declare the types
 All variables are dynamic (both in type and existance), and even the code is dynamic. You can create new variables at runtime, and the type of variables is determined at runtime. You can create new functions at any time, or replace existing functions. When used in a browser, code is added when more script files are loaded, and you can load more files any time you like.
 
 Nowadays JavaScript is compiled in many implementations, and static code and static types are generated in the background. However, the behaviour is still dynamic, the compiler only generates static types when it finds that the dynamic aspects are not used for a specific object.
+
+
