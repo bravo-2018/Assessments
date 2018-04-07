@@ -21,7 +21,7 @@ var count = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 // Reverse variable to count backwards
 var countReversed = count.reverse();
 
-// Starts at index 0, goes no further than index length in array, and repeats with all items
+// Starts at index 0, goes no further than index length in array, and repeats with all items in array
 for(var index = 0; index <= countReversed.length; index++) {
 
   // Logs number on screen
