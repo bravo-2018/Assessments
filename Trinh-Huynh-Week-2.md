@@ -5,10 +5,16 @@ These are potential interview questions. Try your best to answer each question o
 #### 1. Name all of the data types in Javascript, mark which are primitives. 
 
   //Your Answer
-  
+  Primitive Types:
+  - Null
+  - Undefined
+  - Boolean
+  - Number
+  - String
+  - Symbol
   
   //Googled Answer
-
+  Note:  Symbol is new in ECMAScript 6
 
 #### 2. Look at this Javascript and try to predict, what will the browser's console show? 
 
