@@ -39,6 +39,18 @@ if(hungry){
 // 5. Time to combine all this! Create a function that takes in two numbers as arguements. Find the sum of those two numbers, if the sum is less than 20, console log the sum. If the two numbers sum to more than 20, console log "can't count that high!"
 function sumUnder20(x, y) {
 	var z = x+y;
-	if(z<20){ return z; }
-		else{ console.log("Can't count that high!") }
+	if(z<20){ 
+		return z; 
+	} else{ 
+		console.log("Can't count that high!")
+	}
+}
+// Another way to declare the function
+var sumUnder20 = (x, y) => {
+	var z = x+y;
+	if(z<20){
+		return z;
+	} else{
+		console.log("Can't count that high!")
+	}
 }
