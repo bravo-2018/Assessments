@@ -23,6 +23,9 @@ Honestly, I wasn't sure about this term so I had to look it up and found out tha
 #### 3. Explain local vs global scope in programming. Feel free to create a code example to support your answer.
 
   //Your answer
+Functional and block scope (local scope of a loop or if statement) are both kinds of local.
+
+ You can not see variables below you when they are nested.  But nested variables can see everything "up" a scope.  
  Global scope means that whatever is declared can be accessed anywhere in the program.
  Whereas local scope refers to something that is declared inside a function or loop for example and can not be accessed outside of that function or loop.  And each time that function or loop is called, a new instance of a that variable is created.   
 

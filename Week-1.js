@@ -61,7 +61,7 @@ function practiceFunc(arg1, arg2) {
     var sum = arg1 + arg2
     if (sum < 20) {
     return sum
-} else {
+} else if (sum >= 20) {
     return("Can't count that high!")
 }
 }
