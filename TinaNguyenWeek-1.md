@@ -30,7 +30,7 @@ function example() {
 "JavaScript has two scopes – global and local. Any variable declared outside of a function belongs to the global scope, and is therefore accessible from anywhere in your code. Each function has its own scope, and any variable declared within that function is only accessible from that function and any nested functions"-- source: (https://www.sitepoint.com/demystifying-javascript-variable-scope-hoisting/
 )
 
-#### 4. Another great resource for more practice writing code is Free Code Camp. Their Javascript section starts here (https://www.freecodecamp.org/challenges/comment-your-javascript-code) - do at least 5 exercises.
+#### 4. Another great resource for more practice writing code is Free Code Camp. Their Javascript section starts heregi (https://www.freecodecamp.org/challenges/comment-your-javascript-code) - do at least 5 exercises.
 
 Was this extra practice helpful? Take note of any concepts you learned or felt you understood better because of this resource.
 
