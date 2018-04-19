@@ -53,6 +53,21 @@ AlphabetSoup(word)  // this calls the function
 
 // not sure what readline() is???
 
+AlphabetSoup("hooplah");
+
+
+function AlphabetSoup(str) {
+
+	str.split('').sort().join('')
+	return str
+}
+
+AlphabetSoup(word)  // this calls the function
+
+// keep this function call here
+
+// not sure what readline() is???
+
 AlphabetSoup(hooplah);
 
 // 5. Given the arrays below, use a for loop to print one value from each array concatenated together. How would your code need to change to accomodate arrays of different lengths?

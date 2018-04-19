@@ -6,7 +6,7 @@ Try your best to answer each question on your own before looking up the answer o
 #### 1. What is a method in Ruby? How is it different or similar to functions in JavaScript?
 
 
-#### 2. What does it mean that a class inherits from another class? Try to explain Ruby inheritance. 
+#### 2. What does it mean that a class inherits from another class? Try to explain Ruby inheritance.
 
 
 [Your Answer]
@@ -18,11 +18,32 @@ Try your best to answer each question on your own before looking up the answer o
 #### 3. What is rspec and what is the general process for writing tests in RSpec?
 
 //Your Answer
+Provides us the "english" language for Behavior Driven Development.  
+A gem that we can use to write tests
+type rspec and name_of_file
+1. Determine the behavior to implement
+2.
+
+create two files in the spec file
+filename_spec.rb
+filename.rb
+
+require 'spec'
+require_relative 'car'
+
+type rspec filename_spec.rb to see if the test is running correctly
+
+Write a failing test....
+describe, expect
+run test - should fail
+
+
+
 
 //Googled Answer
 
 
-#### 4. Name three possible non-inheritance relationships between ruby objects? 
+#### 4. Name three possible non-inheritance relationships between ruby objects?
 
 //Your Answer
 
@@ -39,6 +60,13 @@ puts "I am printing a random number #{x}"
 #### 6. How do you feel about testing right now? What potential pros/cons/barriers/advantages do you see to implementing BDD in your own code?
 
 //Your Answer
+
+Behavior Driven Development - write a test to describe the behavior of your program, then test your code to see if it meets your test.
+
+Pros -
+test coverage, confidence when you are refactoring your code.
+written in language that non-developers can read (reads like plain english)
+
 
 //Googled Answer
 
