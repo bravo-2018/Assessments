@@ -7,6 +7,13 @@ class Introduction extends Component {
     return <h1>"I am a component"</h1>;
   }
 }
+
+A react component needs to:
+import react
+must be a class
+must export the class
+must have the render function return one JSX element
+
 2. Practice With Loops: In React, we often use the map function to iterate over an array held in state. To get more practice with this, write a vanilla javascript for loop that outputs the same thing as the map function below.
 
 
@@ -23,7 +30,17 @@ for(let i = 0; i < stuffArray.length; i++) {
   console.log(stuffArray[i] + " is at index: " + i)
 }
 
-3. Basic sorting: Find the cheapest price -- you are given a list of prices and need to find the signle lowest price from the array. Write a function that takes in an array of numbers, and returns the lowest price
+import React {Component} from 'react'
+
+class Comp extends Component {
+  constructor
+
+
+
+
+}
+
+3. Basic sorting: Find the cheapest price -- you are given a list of prices and need to find the single lowest price from the array. Write a function that takes in an array of numbers, and returns the lowest price
 
 
 var priceArr = [

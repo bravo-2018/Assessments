@@ -28,15 +28,48 @@ Try your best to answer each question on your own before looking up the answer o
 
 
  //Googled Answer
-When we use "yarn add ..." in the terminal - what is yarn doing? And what file will always be automatically updated after we add a package with yarn?
-
+node modules, package.json and yarn.lock
+** node modules never get added to git. yarn adds the node modules
 #### 4. There are three mistakes in this code that would cause it to break our application. Find the mistakes and fix them:
 
-let recipes = this.state.recipes.map(function(recipe){
-  return(
-    <li key={recipe.name}>{recipe.name}</li>
-  )
-})
+import React, { Component } from 'react';
+
+<!-- //extend component
+//add array brackets
+//move the map function under render but not the return -->
+
+class Recipes extends Component {
+  constructor(props){
+    super(props)
+    this.state = {
+      recipes: [
+        {name: 'Meatballs'},
+        {name: 'Mac & Cheese'}
+      ]
+    }
+  }
+
+  render() {
+
+    let recipes = this.state.recipes.map(function(recipe){
+      return(
+        <li key={recipe.name}>{recipe.name}</li>
+      )
+    })
+
+    return (
+
+
+
+      <ul>
+        {recipes}
+      </ul>
+    );
+  }
+}
+
+export default Recipes;
+
 #### 5. Name three html form input types. (NOTE: text is the default type - so it doesn't count in this case)
 
  //Your Answer
@@ -72,5 +105,11 @@ I found building tic-tac-toe to be very difficult.  I wasn't fully prepared and 
 #### 9. Write the Rules of React we talked about in class and try to give one or two reasons for each rule about why it is important or good to follow the rule.
 
 I don't recall going over the rules of React in class
+
+Answer:
+never update State directly, always use setState()
+never alter the DOM directly, always operate on a value in state
+only call setState once per method or render cycle
+state is for values that change, Props is for values that don't, constants should be set outside the component
 
 #### 10. Do at least 5 exercises on Free Code Camp, starting with this one: https://www.freecodecamp.org/challenges/declare-javascript-objects-as-variables
