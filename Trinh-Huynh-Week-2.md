@@ -77,3 +77,4 @@ Then, past the code in your console and explain why you were right/wrong.
   === is an identity operator, used to compare values AND type
   
   //Googled Answer
+  JavaScript has both strict and type–converting comparisons. A strict comparison (e.g., === ) is only true if the operands are of the same type and the contents match. The more commonly-used abstract comparison (e.g. == ) converts the operands to the same type before making the comparison.
