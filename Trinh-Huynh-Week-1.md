@@ -29,8 +29,8 @@ Was this extra practice helpful? Take note of any concepts you learned or felt y
 #### 5. Complete the steps for pushing changes to Github, assuming that the directory you are working in is already a git repo:
 
 - git add .
-- git _______commit_________
-- git _____push________ -u origin master
+- git commit -m "where this is a message what you updated in a file."
+- git push -u origin master
 
 #### 6. List some differences between return and console.log in Javascript. When would you use one vs the other? 
   Values that get returned can be used by other functions.  Values that are console.logged are only printed onto the screen for the developer to see.
