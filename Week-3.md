@@ -4,7 +4,7 @@ Try your best to answer each question on your own before looking up the answer o
 
 #### 1. Here is a list of pros and cons to using the React library to build your application -- but some of them are false. Remove the false statements from the list:
 
-- React was created to be simple, so that even people with minimal code experience could use it and create Single Page Applications (SPAs)  TRUE
+- React was created to be simple, so that even people with minimal code experience could use it and create Single Page Applications (SPAs)  FALSE  this is about Angular
 - React is a modern, efficient answer to complex UI applications  TRUE
 - React is a full stack framework for modern web applications FALSE
 - React is a flexible library that plays the role of V in an MVC framework TRUE
@@ -33,6 +33,15 @@ Using the container design pattern, the container components are separated from 
  //Your Answer
 
  I'm not sure what yarn add does.  I know that we use yarn instead of npm for react and that we use yarn start to start our react apps.  I think yarn is a package manager for  pre coded packages so we can use these in our apps?
+
+ There are three files or folders that will be changed
+ package.json
+ yarn.lock
+ node modules folder - never gets added to git
+
+ yarn - goes through all the node modules and adds packages that you need.
+
+ don't do a global yarn install with react apps that you want others to run on their computer.  
 
 
  //Googled Answer
@@ -136,6 +145,14 @@ React currently seems unnecessarily complicated :-) at least with this project. 
 
 #### 9. Write the Rules of React we talked about in class and try to give one or two reasons for each rule about why it is important or good to follow the rule.
 Honestly I can't remember specifically what we talked about or if we covered this, but I'll make sure and ask when we review this next Monday.
+
+1.  Never update State directly, always use setState()
+2.  Never alter the DOM directly, always operate on a value in state (for example inner html - if you use this you lose control over what's in state)
+3.  Only call setState once per method or render cycle
+4.  State is for values that change, Props is for values that don't, constants should be set outside the component
+
+Instead of using this.state multiple times, destructure the state object to save values
+"export default" can be written when you create the component class, or after, whichever you choose, stay consistent!
 
 #### 10. Do at least 5 exercises on Free Code Camp, starting with this one: https://www.freecodecamp.org/challenges/declare-javascript-objects-as-variables
 Done :-)
