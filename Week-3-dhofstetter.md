@@ -4,9 +4,8 @@ Try your best to answer each question on your own before looking up the answer o
 
 #### 1. Here is a list of pros and cons to using the React library to build your application -- but some of them are false. Remove the false statements from the list:
 
-- False (Angular) -React was created to be simple, so that even people with minimal code experience could use it and create Single Page Applications (SPAs)
+- React was created to be simple, so that even people with minimal code experience could use it and create Single Page Applications (SPAs)
 - React is a modern, efficient answer to complex UI applications
-- False -React is a full stack framework for modern web applications
 
 - React is a flexible library that plays the role of V in an MVC framework
 
@@ -34,12 +33,6 @@ Smart components (or container components) on the other hand have a different re
  //Googled Answer
 Yarn is a new package manager that replaces the existing workflow for the npm client or other package managers while remaining compatible with the npm registry. It has the same feature set as existing workflows while operating faster, more securely, and more reliably.
 
-3files updated when you return
-  - package.json
-        yarn.lock
-        node_modules (directory)
-
-
 #### 4. There are three mistakes in this code that would cause it to break our application. Find the mistakes and fix them:
 
     import React, { Component } from 'react';
@@ -48,7 +41,6 @@ Yarn is a new package manager that replaces the existing workflow for the npm cl
       constructor(props){
         super(props)
         this.state = {
-    ***This should be an array
           recipes:
             {name: 'Meatballs'},
             {name: 'Mac & Cheese'}
@@ -57,7 +49,7 @@ Yarn is a new package manager that replaces the existing workflow for the npm cl
       }
 
       render() {
-****Move return into render
+
         return (
 
           let recipes = this.state.recipes.map(function(recipe){
@@ -95,7 +87,7 @@ number
  #### 6. What happens when we call setState()?
 
  //Your Answer
-Changes state by replacing state, takes old copy of state, updates, and creates a new state object.
+
 
  //Googled Answer
 setState() enqueues changes to the component state and tells React that this component and its children need to be re-rendered with the updated state. This is the primary method you use to update the user interface in response to event handlers and server responses.
@@ -115,14 +107,6 @@ State -man object that determines how that component renders & behaves. In other
 
 
 #### 9. Write the Rules of React we talked about in class and try to give one or two reasons for each rule about why it is important or good to follow the rule.
--Never update State directly, always use setState()
--Never alter the DOM directly (any time you time inner HTML - don't do this), always operate on a value in a state.  Problem is that when you alter the DOM, you lost control over that view
--Only call setState once per method or render cycle (Setstate is only run at the end of the function, so it does not work like you think (in order of the program)).
--State is for values that change, Props is for values that don't, constants should be set outside the component
-
-For Cleaner react
-- Instead of using this.state multiple time, destructure the state objext to save values
-- exportr 
 
 #### 10. Do at least 5 exercises on Free Code Camp, starting with this one: https://www.freecodecamp.org/challenges/declare-javascript-objects-as-variables
 

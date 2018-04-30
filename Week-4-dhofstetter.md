@@ -4,25 +4,25 @@ Try your best to answer each question on your own before looking up the answer o
 
 
 #### 1. What is a method in Ruby? How is it different or similar to functions in JavaScript?
+It is used to to wrap a repeatable statement in order for reuse.  Methods and functions are the samething
+
+#### 2. What does it mean that a class inherits from another class? Try to explain Ruby inheritance.
 
 
-#### 2. What does it mean that a class inherits from another class? Try to explain Ruby inheritance. 
 
-
-[Your Answer]
 
 
 [Googled Answer]
-
+It inherits the behavior of a child class
 
 #### 3. What is rspec and what is the general process for writing tests in RSpec?
 
 //Your Answer
-
+rspec is a program used for automating testing cases
 //Googled Answer
 
 
-#### 4. Name three possible non-inheritance relationships between ruby objects? 
+#### 4. Name three possible non-inheritance relationships between ruby objects?
 
 //Your Answer
 
@@ -35,10 +35,12 @@ Try your best to answer each question on your own before looking up the answer o
 x = 1022
 puts "I am printing a random number #{x}"
 ```
+String interpolation
 
 #### 6. How do you feel about testing right now? What potential pros/cons/barriers/advantages do you see to implementing BDD in your own code?
 
 //Your Answer
+Testing automation is necessary IMO in order to produce higher quality code.  It has a higher time up front to implement but in the long run will save time on delieverables as when new code is merged and built it can identify problems with the new code if test cases fail.
 
 //Googled Answer
 
