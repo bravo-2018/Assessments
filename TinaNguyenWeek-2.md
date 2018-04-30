@@ -9,6 +9,7 @@ String, numbers, boolean, null, object
 
   //Googled Answer
 + Undefined. All of the above are primitive except object.
+* Objects are arrays.
 
 #### 2. Look at this Javascript and try to predict, what will the browser's console show?
 
@@ -30,10 +31,14 @@ I predict that it will console log "inside".
 Then, past the code in your console and explain why you were right/wrong.
 My prediction was wrong. It consoles "undefined" because nothing is actually getting passed through logIt(). The var text = 'inside' is not getting called and neither is var text = 'ouside'.
 
+-- Hoisting: declare variable first. var text is called before it is declared, voiding 'inside' making it undefined
+
 #### 3. What is JSON? How does it relate to javascript objects?
 
   //Your Answer
   I don't really remember going over this in class... But after reading Google, I think it's a way of writing JavaScript; an extention of some sort
+
+  ** A light syntax used for storing and passing through information
 
   //Googled Answer
   "JSON, or JavaScript Object Notation, is a minimal, readable format for structuring data. It is used primarily to transmit data between a server and web application, as an alternative to XML. Squarespace uses JSON to store and organize site content created with the CMS."
@@ -54,4 +59,4 @@ A closure is the combination of a function and the lexical environment within wh
 
   //Googled Answer
   Abstract Equality Comparison (==)
-  Strict Equality Comparison (===): used 
+  Strict Equality Comparison (===): used

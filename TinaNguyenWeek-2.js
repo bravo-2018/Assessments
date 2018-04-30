@@ -49,6 +49,13 @@ function AlphabetSoup(str) {
 	return example;
 }
 
+// Could also write this way
+function AlphabetSoup(str) {
+	var example = str.split('')
+	example = str.sort()
+	return example.join('')
+}
+
 
 // keep this function call here
 
@@ -65,6 +72,15 @@ for (let i = 0; i <= nums.length; i++) {
 	newArray.push(nums[i]+ " " +(nouns[i]))
 	}
 console.log(newArray)
+
+// Alyssa's example. Function is optional
+function concatArrays(arr1, arr2) {
+	var concatArray = []
+	for (let i=0; i <= arr1.length; i++) {
+		concatArray.push(arr1[i] + " " + arr2[i])
+	}
+		return concatArray
+	}
 
 /* To accomodate arrays with different lengths, an if else statement would have to be written.
 
