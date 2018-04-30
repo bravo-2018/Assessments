@@ -56,6 +56,16 @@ function AlphabetSoup(str) {
 	return str;
 }
 
+// or........
+//create an array of letters
+let strArray = str.split("")
+//sort array of letters
+strArray.sort()
+//return Array into a string
+returns strArray.join("")
+
+
+
 // keep this function call here
 
 AlphabetSoup(readline());
@@ -82,7 +92,12 @@ var comboArray = []
 for(let i = 0; i<shortestArray; i++){
 	comboArray[i] = nums[i] + " " + nouns[i]
 }
+// Alyssa's way: with function
+function concatArrays(arr1, arr2){
 
+}
+
+// find shortest:
 
 //or without built in sort:
 //create a swap function:
