@@ -13,7 +13,7 @@ Assessments for combined curriculum of 2018
 
 1. Open the repo in atom on your computer
 2. Choose the week you want to work on and rename the file to your name (first and last) and the week number
-3. `git add .` and `git commit` your changes, do these steps as a way to "save" your progress
+3. `git add .` and `git commit -m "<message>"` your changes, do these steps as a way to "save" your progress
 4. finally, `git push` your changes to Github
 
 
