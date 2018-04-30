@@ -47,13 +47,9 @@ var sortStr = function AlphabetSoup(str) {
 }
 
 
-master
 // keep this function call here
 
 AlphabetSoup(readline());
-=======
-AlphabetSoup(hooplah);   
- master
 
 // 5. Given the arrays below, use a for loop to print one value from each array concatenated together. How would your code need to change to accomodate arrays of different lengths?
 
