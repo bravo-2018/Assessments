@@ -1,12 +1,17 @@
 #### 1. Use Ruby to loop over this array, multiplying each element by 2.
 
 tempArray = [1, 2, 6, 9, 3, 21]
+newArray = []
+tempArray.each do |num|
+  newArray << 2*num
+end
+print newArray
 
-# your ruby loop here
 
 #### 2. From all the built in Ruby methods we've seen in class this week, choose three that you think are particularly helpful and create examples to show how they work.
 
-# your three built in ruby methods
+
+
 
 #### 3. Look at this horrible ruby code, and fix it to be good ruby code. 
 
