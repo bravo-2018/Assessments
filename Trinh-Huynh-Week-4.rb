@@ -40,4 +40,18 @@ class example
   end
 end
 ```
-
+class Day
+  def initialize( day )
+    @day = day
+  end
+  
+  def say_hi
+    if( @day === "Friday")
+      puts "TGIF!"
+    elsif (@day === "Monday")
+      puts "It's Monday..."
+    else
+      puts "It's just one of those weekdays."
+    end
+  end
+end
