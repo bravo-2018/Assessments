@@ -90,9 +90,13 @@ Try your best to answer each question on your own before looking up the answer o
   
 
 ### 10. Name two rails generator commands and what files they create:
+  1) Controller generator will create a controller file, a view file, a test file, a helper for the view, a JS file and a stylesheet file.
+  2) Model generator will create Active Records files
 
 ### 11. Rails has a great community and lots of free tutorials to help you learn. Here is a list of some tutorials to choose from, choose one, do it, and then report back here at least one thing you learned. You can also use a different resource if you find one that you like better. 
 
 - https://www.tutorialspoint.com/ruby-on-rails/index.htm
 - http://railsforzombies.org
 - http://guides.rubyonrails.org/getting_started.html
+
+From tutorialspoint, I learned how to create Active Record Files on Rails and how to use the model generator to generate them for me.
