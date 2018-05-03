@@ -74,14 +74,20 @@ Try your best to answer each question on your own before looking up the answer o
 ```
 
 ### 5. What is the public folder used for in Rails?
+  To contain simple static html pages
 
 ### 6. Write a rails route for a controller called "main" and a page called "game" that takes in a parameter called "guess"
-
+  get '/game' => 'main#guess'
+  
 ### 7. What are cookies for? How do they work? What is the difference between a session and a cookie?
+  A cookie saves data between page refreshes but leaves the data unencrypted.  A session will encrypt the data but will only last during that session. 
 
 ### 8. In an html form, what does the "action" attribute tell you about the form?  How do you designate the HTTP verb for the form?
+  The action attribute tells you where the form-data is sent when the form is submitted. You designate the HTTP verb right after you specify the action.  For example:
+  <form action='/foo' method='post'>
 
 ### 9. Why would you use an instance variable in a rails controller?
+  
 
 ### 10. Name two rails generator commands and what files they create:
 
