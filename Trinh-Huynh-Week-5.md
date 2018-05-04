@@ -8,22 +8,8 @@ Try your best to answer each question on your own before looking up the answer o
 ### 2. How does Ruby on Rails use the Model View Controller (MVC) framework?
   Rails's Model is ActiveRecord, the View is ActionView, and the Controller is ActionController.
   
-  From https://www.tutorialspoint.com/ruby-on-rails/rails-framework.htm:
-  Ruby on Rails MVC Framework
-  Model (ActiveRecord )
-  It maintains the relationship between the objects and the database and handles validation, association, transactions, and more.
-
-  This subsystem is implemented in ActiveRecord library, which provides an interface and binding between the tables in a relational database and the Ruby program code that manipulates database records. Ruby method names are automatically generated from the field names of database tables.
-
-  View ( ActionView )
-  It is a presentation of data in a particular format, triggered by a controller's decision to present the data. They are script-based template systems like JSP, ASP, PHP, and very easy to integrate with AJAX technology.
-
-  This subsystem is implemented in ActionView library, which is an Embedded Ruby (ERb) based system for defining presentation templates for data presentation. Every Web connection to a Rails application results in the displaying of a view.
-
-  Controller ( ActionController )
-  The facility within the application that directs traffic, on the one hand, querying the models for specific data, and on the other hand, organizing that data (searching, sorting, messaging it) into a form that fits the needs of a given view.
-
-  This subsystem is implemented in ActionController, which is a data broker sitting between ActiveRecord (the database interface) and ActionView (the presentation engine).
+  https://www.sitepoint.com/model-view-controller-mvc-architecture-rails/
+  
 
 ### 3. Using the information given, complete the steps for creating a new view in a rails app by filling in the blanks:
 
