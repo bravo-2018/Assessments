@@ -6,7 +6,7 @@ if(true) {
 }
 // attempt at answer: since the boolean value is true, the console will log "You'll never see this message!".  So in order for that message to
 // never be visible, boolean should be set to false:
-if(true) {
+if(false) {
   console.log("You'll never see this message!")
 } else {
   console.log("This message is visible")
