@@ -63,7 +63,7 @@ Try your best to answer each question on your own before looking up the answer o
   To contain simple static html pages
 
 ### 6. Write a rails route for a controller called "main" and a page called "game" that takes in a parameter called "guess"
-  get '/game' => 'main#guess'
+  get '/game/:guess' => 'main'
   
 ### 7. What are cookies for? How do they work? What is the difference between a session and a cookie?
   A cookie saves data between page refreshes but leaves the data unencrypted.  A session will encrypt the data but will only last during that session. 
